@@ -2,7 +2,7 @@ export const msalConfig = {
   auth: {
     clientId: "f9ab0a06-4349-48b5-860a-e381b80ae30c",
     authority: "https://login.microsoftonline.com/consumers", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
-    redirectUri: "https://proud-wave-035a10c00.1.azurestaticapps.net",
+    redirectUri: "https://proud-wave-035a10c00.1.azurestaticapps.net/blank",
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
